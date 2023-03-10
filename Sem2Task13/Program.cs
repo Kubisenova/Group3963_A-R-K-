@@ -37,16 +37,16 @@
 
 
 
-// Второе решение
-Console.WriteLine("Введите число:  ");
-string? numA = Console.ReadLine();
+// // Второе решение
+// Console.WriteLine("Введите число:  ");
+// string? numA = Console.ReadLine();
 
-if (numA.Length >= 3)
-{
-    char[] array = numA.ToCharArray();
-    Console.WriteLine(array[2]);
-}
-else
-{
-    Console.WriteLine("Третьей цифры нет ");
-}
+// if (numA.Length >= 3)
+// {
+//     char[] array = numA.ToCharArray();
+//     Console.WriteLine(array[2]);
+// }
+// else
+// {
+//     Console.WriteLine("Третьей цифры нет ");
+// }
